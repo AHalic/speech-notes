@@ -57,7 +57,7 @@ export default function NewNoteCard({ onNoteCreated } : NewNoteCardProps){
         
         recognitionAPI = new (window.SpeechRecognition || window.webkitSpeechRecognition)();
         
-        recognitionAPI.lang = 'pt-BR';
+        recognitionAPI.lang = 'en-US';
         recognitionAPI.continuous = true;
         recognitionAPI.maxAlternatives = 1; // only one result for each recognition
         recognitionAPI.interimResults = true; // show results while speaking
