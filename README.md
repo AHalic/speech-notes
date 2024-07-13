@@ -1,4 +1,4 @@
-# NLW Notes
+# Speech Notes
 
 A note app that allows the user to write notes typing or speaking :)
 
